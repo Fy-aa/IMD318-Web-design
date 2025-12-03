@@ -41,6 +41,16 @@ nav a:hover {
     border-radius: 8px;
     overflow: hidden;
 }
+}
+.red-velvet-table {
+    width: 65%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #fff5f5; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
 
 /* Header */
 .red-velvet-table th {
