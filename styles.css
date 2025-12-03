@@ -2,24 +2,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f7f7f7;
+    background:#EEE8AA;
+.center-text {
+    text-align: center;
+}
+
 }
 
 header {
-    background: #333;
+    background:#8B0000;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background: #444;
+    background: #FFFFE0;
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -28,16 +32,85 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+.red-velvet-table {
+    width: 65%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #fff5f5; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
 
-section {
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
-    background: white;
+/* Header */
+.red-velvet-table th {
+    background: #8b0000; /* deep velvet red */
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Table cells */
+.red-velvet-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #d4a5a5; /* soft red border */
+    font-size: 17px;
+}
+
+/* Left column labels */
+.red-velvet-table td:first-child {
+    background: #ffe6e6; /* light red */
+    font-weight: bold;
+    width: 35%;
+}
+
+/* Hover effect */
+.red-velvet-table tr:hover td {
+    background: #fcdcdc;
+}
+
+.socials {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.socials a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 8px;
+    background:#D2B48C;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.socials a:hover {
+    background: #B22222;
+    transform: scale(1.05);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 footer {
-    background: #333;
+    margin-top: auto;
+}
+
+footer {
+    background:#8B0000;
     color: white;
     text-align: center;
     padding: 10px;
