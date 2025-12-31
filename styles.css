@@ -151,6 +151,29 @@ body {
     font-family: Georgia;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3x3 grid */
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caption {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+
 
 footer {
     margin-top: auto;
